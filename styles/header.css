@@ -1,0 +1,22 @@
+.header {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-template-rows: 100px;
+    border-bottom: 2px solid rgb(160, 157, 157);
+}
+
+.header-item {
+    background-color: rgb(116, 116, 116);
+    margin-bottom: 20px;
+}
+
+.item-3 {
+    padding: 10px;
+    text-align: end;
+    line-height: 22px;
+}
+
+a {
+    color: #fff;
+}
